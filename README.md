@@ -4,7 +4,7 @@ We're using the Pytorch implementation of Stylegan2, available [here](https://gi
 
 There was no need to change the code as it contains everything to easily train on a new dataset. The one we used in the project contains a little more than 800 images. The dataset is available on the lab's server. It was created using the `dataset_tool.py` script as follows: 
 
-`python dataset_tool.py --source /home/ambroise/dataset/delany_cropped --dest /home/ambroise/dataset/delany_cropped.zip --width=256 --height=256`
+`python dataset_tool.py --source /home/ambroise/dataset/delany_cropped --dest /home/ambroise/dataset/delany_cropped.zip --width=1024 --height=1024`
 
 or 
 
